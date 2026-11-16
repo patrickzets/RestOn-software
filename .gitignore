@@ -1,0 +1,25 @@
+# Segredos e configuração local
+.env
+*.local
+
+# Dependências e arquivos gerados
+node_modules/
+target/
+dist/
+.angular/
+
+# Editores e sistema
+.idea/
+*.iml
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+Thumbs.db
+*.log
+
+# Fotos enviadas pelos usuários (futuro EP04)
+uploads/
+
+# Testes ponta a ponta (navegador)
+test-results/
+playwright-report/
